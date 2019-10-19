@@ -36,7 +36,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                 // TODO: Reload your table view data
                 self.movies = dataDictionary["results"] as! [[String:Any]]
                 self.tableView.reloadData()
-                print(self.movies)
+                
             }
         }
         task.resume()
